@@ -1,5 +1,6 @@
 import './app.styles.scss'
 import HomePage from './pages/home.page'
+import ItemDirectory from './pages/shopping-item/shopping-item.container'
 import { Route, Switch} from 'react-router-dom'
 
 
@@ -12,6 +13,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={HomePage}/>
       <Route path="/hats" component={HatsPage}/>
+      <Route path="/shopping" component={ItemDirectory}/>
     </Switch>
   );
 }

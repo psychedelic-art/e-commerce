@@ -1,0 +1,15 @@
+.collection-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-name {
+    display: block;
+}
+
+.shopping-list {
+    margin: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

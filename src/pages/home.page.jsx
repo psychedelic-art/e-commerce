@@ -1,5 +1,5 @@
 import './home.styles.scss'
-import CardDirectory from '../containers/card-directory.container'
+import CardDirectory from '../containers/card-directory/card-directory.container'
 
 const HomePage = () => {
     return (
