@@ -256,25 +256,6 @@ const ItemDirectory = () => {
 
 
     return(<div>
-        <div className="header">
-          <div className="header-left">
-            <Logo />
-          </div>
-          <div className="header-right">
-            <div className="header--navbutton">
-              SHOP
-            </div>
-            <div className="header--navbutton">
-              CONTACT
-            </div>
-            <div className="header--navbutton">
-              SIGN IN
-            </div>
-            <div className="header--buttonicon">
-              CART
-            </div>
-          </div>
-        </div>
         <div className="collections">
           <h1><b>Collections</b></h1>
           { 
