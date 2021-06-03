@@ -1,0 +1,23 @@
+.header-wrapper {
+    padding: 5rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    flex: 1;
+}
+
+.nav-links-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-link {
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
